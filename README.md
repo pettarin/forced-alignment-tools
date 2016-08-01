@@ -2,10 +2,11 @@
 
 A collection of links and notes on forced alignment tools 
 
-* Version: 1.0.0
+* Version: 1.0.1
 * Date: 2016-08-01
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
+
 
 ## Definition of Forced Alignment
 
@@ -57,7 +58,7 @@ Typical **applications** of forced alignment include
 
 The following matrix contains **open source** programs and libraries
 for computing forced alignments
-that have been actually **proven to install and run**,
+that have been actually **proven to install and run**
 (albeit the installation procedure for some of them is pretty complex).
 
 All tools, except **aeneas**, are based on speech recognition algorithms;
@@ -65,8 +66,9 @@ all tools, except **aeneas** and **gentle**,
 are maintained by research groups or individuals in academia.
 
 Most tools are based on the [HTK](http://htk.eng.cam.ac.uk/),
-which is not free for commercial purposes
-(although a commercial license can be purchased).
+which is not free for commercial purposes,
+although a commercial license can be purchased
+from the University of Cambridge.
 
 Name | Algorithm | Supported Language(s) | Interface | Code Language | License | Documentation | Mailing List/Forum | Active | Notes
 -----|-----------|-----------------------|-----------|---------------|---------|---------------|--------------------|--------|------
@@ -76,17 +78,24 @@ Name | Algorithm | Supported Language(s) | Interface | Code Language | License |
 [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | English, Japanese | CLI + LIB | C | MIT-like | Y | Y | N? |
 [Kaldi](http://kaldi-asr.org/) | HMM (own) / DNN / RNN | English | CLI + LIB | C++ | Apache | Y | Y | Y | CUDA support
 [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 10 | CLI + Web | C | All rights reserved | README | N | Y |
+[Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Other languages are trainable
 [Penn Forced Aligner](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI + Web | Python | ??? | README, Tutorial | N | N? | 
 [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | ??? | README, Tutorial | N | Y | Other languages are trainable
 [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |
 
-Acronyms:
-
+* AGPL: [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
+* Apache: [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
+* CLI: command line interface
 * DNN: [Deep Neural Network](https://en.wikipedia.org/wiki/Deep_learning)
 * DTW: [Dynamic Time Warping](https://en.wikipedia.org/wiki/Dynamic_time_warping)
+* GPL: [GNU General Public License](https://www.gnu.org/licenses/gpl.html)
+* GUI: graphical interface
+* LIB: library callable by third party software
 * MFCC: [Mel-frequency Cepstral Coefficients](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
+* MIT: [MIT License](https://opensource.org/licenses/MIT)
 * HMM: [Hidden Markov Model](https://en.wikipedia.org/wiki/Hidden_Markov_model)
 * RNN: [Recurrent Neural Network](https://en.wikipedia.org/wiki/Recurrent_neural_network)
+* Web: Web-based graphical interface, local and/or remote
 
 
 ## Additional Pointers
@@ -111,6 +120,7 @@ Acronyms:
 * [Korean Phonetic Aligner](http://korean.utsc.utoronto.ca/kpa/), Web only, Korean only
 * [Long Audio Aligner Landed in Trunk (Sphinx)](http://cmusphinx.sourceforge.net/2014/07/long-audio-aligner-landed-in-trunk/)
 * [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html)
+* [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/)
 * [speech.zone](http://www.speech.zone/)
 * [SPPAS Automatic Annotation of Speech](http://www.sppas.org/index.html), based on Julius
 * [Penn Forced Aligner](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/)
