@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools 
 
-* Version: 1.0.1
-* Date: 2016-08-01
+* Version: 1.0.2
+* Date: 2016-09-26
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -74,12 +74,14 @@ Name | Algorithm | Supported Language(s) | Interface | Code Language | License |
 -----|-----------|-----------------------|-----------|---------------|---------|---------------|--------------------|--------|------
 [aeneas](https://www.readbeyond.it/aeneas/) | DTW | 30+ | CLI + LIB + Web | Python/C | AGPL | Y | Y | Y | Not based on speech recognition
 [CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own) / RNN | 11 | CLI + LIB | C/Java/Python | MIT-like | Y | Y | Y | 
+[DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | English | Web | ? | ? | Y | N |  N? | Based on Prosodylab-Aligner or YouTube ASR
 [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | English | CLI + Web | Python | MIT | N | N | Y | Based on Kaldi
 [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | English, Japanese | CLI + LIB | C | MIT-like | Y | Y | N? |
 [Kaldi](http://kaldi-asr.org/) | HMM (own) / DNN / RNN | English | CLI + LIB | C++ | Apache | Y | Y | Y | CUDA support
+[LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | English | Web | Java | GPL | Y | Y | Y |
 [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 10 | CLI + Web | C | All rights reserved | README | N | Y |
 [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Other languages are trainable
-[Penn Forced Aligner](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI + Web | Python | ??? | README, Tutorial | N | N? | 
+[Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI + Web | Python | ??? | README, Tutorial | N | N? | 
 [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | ??? | README, Tutorial | N | Y | Other languages are trainable
 [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |
 
@@ -103,7 +105,10 @@ Name | Algorithm | Supported Language(s) | Interface | Code Language | License |
 * [aeneas](https://www.readbeyond.it/aeneas/)
 * [Automated Audio Segmentation Using Forced Alignment](http://www.voxforge.org/home/dev/autoaudioseg)
 * [Automatic and Accurate Captioning](http://www.nmsl.cs.ucsb.edu/proj/autocap/), based on CMU Sphinx
+* [AZP2FA (fork of P2FA)](https://github.com/myedibleenso/AZP2FA)
+* [Berkeley Phonetics Machine](http://linguistics.berkeley.edu/plab/guestwiki/index.php?title=Berkeley_Phonetics_Machine)
 * [Building Acoustic Models using Kaldi Voxforge recipe to obtain word level transcripts for long video files](http://forcedalignment.blogspot.it/2015/06/building-acoustic-models-using-kaldi.html)
+* [DARLA](http://darla.dartmouth.edu/cave)
 * [EasyAlign: phonetic alignment with Praat](http://latlcui.unige.ch/phonetique/easyalign.php)
 * [FAVE-align](http://fave.ling.upenn.edu/), the Web interface for the Penn Forced Aligner
 * [Forced Alignment and Speech Recognition Systems (Oxford)](http://www.phon.ox.ac.uk/jcoleman/BAAP_ASR.pdf)
@@ -118,15 +123,18 @@ Name | Algorithm | Supported Language(s) | Interface | Code Language | License |
 * [Kaldi](http://kaldi-asr.org/)
 * [Kaldi Forced Alignment](http://pages.jh.edu/~echodro1/tutorial/kaldi/kaldi-forcedalignment.html)
 * [Korean Phonetic Aligner](http://korean.utsc.utoronto.ca/kpa/), Web only, Korean only
+* [LaBB-CAT](http://labbcat.sourceforge.net/)
 * [Long Audio Aligner Landed in Trunk (Sphinx)](http://cmusphinx.sourceforge.net/2014/07/long-audio-aligner-landed-in-trunk/)
 * [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html)
 * [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/)
-* [speech.zone](http://www.speech.zone/)
-* [SPPAS Automatic Annotation of Speech](http://www.sppas.org/index.html), based on Julius
 * [Penn Forced Aligner](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/)
 * [Penn Forced Aligner](http://pages.jh.edu/~echodro1/tutorial/pfa/pfa-intro.html)
 * [Praatalign: an interactive Praat plug-in for performing phonetic forced alignment](https://github.com/dopefishh/praatalign)
 * [ProsodyLab-Aligner](http://prosodylab.org/tools/aligner/)
+* [Robust Automatic Transcription of Speech (RATS)](http://opencatalog.darpa.mil/RATS.html)
+* [Simple English Forced Alignment (UPenn LING521)](http://www.ling.upenn.edu/courses/ling521/NewAligner1a.html)
+* [speech.zone](http://www.speech.zone/)
+* [SPPAS Automatic Annotation of Speech](http://www.sppas.org/index.html), based on Julius
 * [VoxForge](http://www.voxforge.org/)
 * [WebMAUS](https://clarin.phonetik.uni-muenchen.de/BASWebServices/index.html#/services/WebMAUSBasic), the Web interface for MAUS
 * [What is forced alignment? (ICSI)](http://www1.icsi.berkeley.edu/Speech/faq/forcedalign.html)
