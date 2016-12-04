@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools 
 
-* Version: 1.0.2
-* Date: 2016-09-26
+* Version: 1.0.3
+* Date: 2016-12-04
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -75,6 +75,7 @@ Name | Algorithm | Supported Language(s) | Interface | Code Language | License |
 [aeneas](https://www.readbeyond.it/aeneas/) | DTW | 30+ | CLI + LIB + Web | Python/C | AGPL | Y | Y | Y | Not based on speech recognition
 [CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own) / RNN | 11 | CLI + LIB | C/Java/Python | MIT-like | Y | Y | Y | 
 [DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | English | Web | ? | ? | Y | N |  N? | Based on Prosodylab-Aligner or YouTube ASR
+[FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | English | CLI + Web | Python | GPL | Y | Y | Y? | acustic models from P2FA
 [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | English | CLI + Web | Python | MIT | N | N | Y | Based on Kaldi
 [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | English, Japanese | CLI + LIB | C | MIT-like | Y | Y | N? |
 [Kaldi](http://kaldi-asr.org/) | HMM (own) / DNN / RNN | English | CLI + LIB | C++ | Apache | Y | Y | Y | CUDA support
@@ -111,6 +112,7 @@ Name | Algorithm | Supported Language(s) | Interface | Code Language | License |
 * [DARLA](http://darla.dartmouth.edu/cave)
 * [EasyAlign: phonetic alignment with Praat](http://latlcui.unige.ch/phonetique/easyalign.php)
 * [FAVE-align](http://fave.ling.upenn.edu/), the Web interface for the Penn Forced Aligner
+* [FAVE-align](https://github.com/JoFrhwld/FAVE/), source code
 * [Forced Alignment and Speech Recognition Systems (Oxford)](http://www.phon.ox.ac.uk/jcoleman/BAAP_ASR.pdf)
 * [Forced Alignment of Spoken Audio](https://www.clarin.eu/sites/default/files/Joe_Fruehwald_Oxford_2016.pdf)
 * [Forced Alignment Overview (ISIP)](https://www.isip.piconepress.com/projects/speech/software/tutorials/production/fundamentals/v1.0/section_04/s04_04_p01.html)
