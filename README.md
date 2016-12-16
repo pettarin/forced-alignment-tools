@@ -1,9 +1,9 @@
 # forced-alignment-tools
 
-A collection of links and notes on forced alignment tools 
+A collection of links and notes on forced alignment tools
 
-* Version: 1.0.3
-* Date: 2016-12-04
+* Version: 1.0.4
+* Date: 2016-12-16
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -73,16 +73,16 @@ from the University of Cambridge.
 Name | Algorithm | Supported Language(s) | Interface | Code Language | License | Documentation | Mailing List/Forum | Active | Notes
 -----|-----------|-----------------------|-----------|---------------|---------|---------------|--------------------|--------|------
 [aeneas](https://www.readbeyond.it/aeneas/) | DTW | 30+ | CLI + LIB + Web | Python/C | AGPL | Y | Y | Y | Not based on speech recognition
-[CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own) / RNN | 11 | CLI + LIB | C/Java/Python | MIT-like | Y | Y | Y | 
+[CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own) / RNN | 11 | CLI + LIB | C/Java/Python | MIT-like | Y | Y | Y |
 [DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | English | Web | ? | ? | Y | N |  N? | Based on Prosodylab-Aligner or YouTube ASR
-[FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | English | CLI + Web | Python | GPL | Y | Y | Y? | acustic models from P2FA
+[FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | English | CLI (+ Web) | Python | GPL | Y | Y | Y | acustic models from P2FA; GitHub code updated more frequently than Web
 [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | English | CLI + Web | Python | MIT | N | N | Y | Based on Kaldi
 [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | English, Japanese | CLI + LIB | C | MIT-like | Y | Y | N? |
 [Kaldi](http://kaldi-asr.org/) | HMM (own) / DNN / RNN | English | CLI + LIB | C++ | Apache | Y | Y | Y | CUDA support
 [LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | English | Web | Java | GPL | Y | Y | Y |
 [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 10 | CLI + Web | C | All rights reserved | README | N | Y |
 [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Other languages are trainable
-[Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI + Web | Python | ??? | README, Tutorial | N | N? | 
+[Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI + Web | Python | ??? | README, Tutorial | N | N? |
 [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | ??? | README, Tutorial | N | Y | Other languages are trainable
 [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |
 
