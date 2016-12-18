@@ -1,0 +1,505 @@
+{
+    "aligners": {
+        "type": "table",
+        "header": [
+            ["name", "Name"],
+            ["url", "URL"],
+            ["algo", "Algorithm"],
+            ["lang", "Supported Language(s)"],
+            ["interface", "Interface"],
+            ["codelang", "Code Language(s)"],
+            ["lic", "License"],
+            ["doc", "Documentation"],
+            ["ml", "Mailing List/Forum"],
+            ["active", "Active"],
+            ["notes", "Notes"]
+        ],
+        "rows": [
+            {
+                "name": "aeneas",
+                "url": "https://www.readbeyond.it/aeneas/",
+                "algo": "DTW",
+                "lang": "30+",
+                "interface": "CLI, LIB, Web",
+                "codelang": "Python, C",
+                "lic": "AGPL",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "Y",
+                "notes": "Not based on ASR"
+            },
+            {
+                "name": "CMU Sphinx",
+                "url": "http://cmusphinx.sourceforge.net/",
+                "algo": "HMM (own), RNN",
+                "lang": "11",
+                "interface": "CLI, LIB",
+                "codelang": "C, Java, Python",
+                "lic": "MIT-like",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "Y",
+                "notes": ""
+            },
+            {
+                "name": "DARLA",
+                "url": "http://darla.dartmouth.edu/cave",
+                "algo": "HMM (HTK)",
+                "lang": "English",
+                "interface": "Web",
+                "codelang": "?",
+                "lic": "?",
+                "doc": "Y",
+                "ml": "N",
+                "active": "N?",
+                "notes": "Based on Prosodylab-Aligner or YouTube ASR"
+            },
+            {
+                "name": "FAVE-align",
+                "url": "https://github.com/JoFrhwld/FAVE/",
+                "algo": "HMM (HTK)",
+                "lang": "English",
+                "interface": "CLI, (Web)",
+                "codelang": "Python",
+                "lic": "GPL",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "Y",
+                "notes": "acustic models from P2FA; GitHub code updated more frequently than Web"
+            },
+            {
+                "name": "Gentle",
+                "url": "https://lowerquality.com/gentle/",
+                "algo": "HMM (Kaldi)",
+                "lang": "English",
+                "interface": "CLI, Web",
+                "codelang": "Python",
+                "lic": "MIT",
+                "doc": "N",
+                "ml": "N",
+                "active": "Y",
+                "notes": "Based on Kaldi"
+            },
+            {
+                "name": "Julius",
+                "url": "http://julius.osdn.jp/en_index.php",
+                "algo": "HMM (own)",
+                "lang": "English, Japanese",
+                "interface": "CLI, LIB",
+                "codelang": "C",
+                "lic": "MIT-like",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "N?",
+                "notes": ""
+            },
+            {
+                "name": "Kaldi",
+                "url": "http://kaldi-asr.org/",
+                "algo": "HMM (own), DNN, RNN",
+                "lang": "English",
+                "interface": "CLI, LIB",
+                "codelang": "C++",
+                "lic": "Apache",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "Y",
+                "notes": "CUDA support"
+            },
+            {
+                "name": "LaBB-CAT",
+                "url": "http://labbcat.sourceforge.net/",
+                "algo": "HMM (HTK)",
+                "lang": "English",
+                "interface": "Web",
+                "codelang": "Java",
+                "lic": "GPL",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "Y",
+                "notes": ""
+            },
+            {
+                "name": "MAUS",
+                "url": "https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html",
+                "algo": "HMM (HTK)",
+                "lang": "10",
+                "interface": "CLI, Web",
+                "codelang": "C",
+                "lic": "All rights reserved",
+                "doc": "README",
+                "ml": "N",
+                "active": "Y",
+                "notes": ""
+            },
+            {
+                "name": "Montreal Forced Aligner",
+                "url": "https://montrealcorpustools.github.io/Montreal-Forced-Aligner/",
+                "algo": "HMM (Kaldi)",
+                "lang": "English",
+                "interface": "CLI",
+                "codelang": "Python",
+                "lic": "MIT",
+                "doc": "Y",
+                "ml": "N",
+                "active": "Y",
+                "notes": "Can train other languages"
+            },
+            {
+                "name": "Penn Forced Aligner (P2FA)",
+                "url": "https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/",
+                "algo": "HMM (HTK)",
+                "lang": "English",
+                "interface": "CLI, Web",
+                "codelang": "Python",
+                "lic": "?",
+                "doc": "README, Tutorial",
+                "ml": "N",
+                "active": "N?",
+                "notes": ""
+            },
+            {
+                "name": "Prosodylab-Aligner",
+                "url": "http://prosodylab.org/tools/aligner/",
+                "algo": "HMM (HTK)",
+                "lang": "English",
+                "interface": "CLI",
+                "codelang": "Python",
+                "lic": "?",
+                "doc": "README, Tutorial",
+                "ml": "N",
+                "active": "Y",
+                "notes": "Can train other languages"
+            },
+            {
+                "name": "SailAlign",
+                "url": "https://github.com/nassosoassos/sail_align",
+                "algo": "HMM (HTK)",
+                "lang": "English, Greek, Spanish",
+                "interface": "CLI",
+                "codelang": "Perl",
+                "lic": "GPL",
+                "doc": "README",
+                "ml": "N",
+                "active": "N?",
+                "notes": ""
+            }
+        ]
+    },
+    "abbreviations": {
+        "type": "list",
+        "rows": [
+            {
+                "abbr": "AGPL",
+                "text": "GNU Affero General Public License",
+                "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+                "notes": ""
+            },
+            {
+                "abbr": "Apache",
+                "text": "Apache License",
+                "url": "http://www.apache.org/licenses/LICENSE-2.0",
+                "notes": ""
+            },
+            {
+                "abbr": "CLI",
+                "text": "command line interface",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "abbr": "DNN",
+                "text": "Deep Neural Network",
+                "url": "https://en.wikipedia.org/wiki/Deep_learning",
+                "notes": ""
+            },
+            {
+                "abbr": "DTW",
+                "text": "Dynamic Time Warping",
+                "url": "https://en.wikipedia.org/wiki/Dynamic_time_warping",
+                "notes": ""
+            },
+            {
+                "abbr": "GPL",
+                "text": "GNU General Public License",
+                "url": "https://www.gnu.org/licenses/gpl.html",
+                "notes": ""
+            },
+            {
+                "abbr": "GUI",
+                "text": "graphical interface",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "abbr": "LIB",
+                "text": "library callable by third party software",
+                "url": "",
+                "notes": ""
+            },
+            {
+                "abbr": "MFCC",
+                "text": "Mel-frequency Cepstral Coefficients",
+                "url": "https://en.wikipedia.org/wiki/Mel-frequency_cepstrum",
+                "notes": ""
+            },
+            {
+                "abbr": "MIT",
+                "text": "MIT License",
+                "url": "https://opensource.org/licenses/MIT",
+                "notes": ""
+            },
+            {
+                "abbr": "HMM",
+                "text": "Hidden Markov Model",
+                "url": "https://en.wikipedia.org/wiki/Hidden_Markov_model",
+                "notes": ""
+            },
+            {
+                "abbr": "RNN",
+                "text": "Recurrent Neural Network",
+                "url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+                "notes": ""
+            },
+            {
+                "abbr": "Web",
+                "text": "Web-based graphical interface, local and/or remote",
+                "url": "",
+                "notes": ""
+            }
+        ]
+    },
+    "links": {
+        "type": "list",
+        "rows": [
+            {
+                "abbr": "",
+                "text": "aeneas",
+                "url": "https://www.readbeyond.it/aeneas/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Automated Audio Segmentation Using Forced Alignment",
+                "url": "http://www.voxforge.org/home/dev/autoaudioseg",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Automatic and Accurate Captioning",
+                "url": "http://www.nmsl.cs.ucsb.edu/proj/autocap/",
+                "notes": "based on CMU Sphinx"
+            },
+            {
+                "abbr": "",
+                "text": "AZP2FA",
+                "url": "https://github.com/myedibleenso/AZP2FA",
+                "notes": "fork of P2FA"
+            },
+            {
+                "abbr": "",
+                "text": "Berkeley Phonetics Machine",
+                "url": "http://linguistics.berkeley.edu/plab/guestwiki/index.php?title=Berkeley_Phonetics_Machine",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Building Acoustic Models using Kaldi Voxforge recipe to obtain word level transcripts for long video files",
+                "url": "http://forcedalignment.blogspot.it/2015/06/building-acoustic-models-using-kaldi.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "DARLA",
+                "url": "http://darla.dartmouth.edu/cave",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "EasyAlign: phonetic alignment with Praat",
+                "url": "http://latlcui.unige.ch/phonetique/easyalign.php",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "FAVE-align",
+                "url": "http://fave.ling.upenn.edu/",
+                "notes": "the Web interface for the Penn Forced Aligner"
+            },
+            {
+                "abbr": "",
+                "text": "FAVE-align",
+                "url": "https://github.com/JoFrhwld/FAVE/",
+                "notes": "source code"
+            },
+            {
+                "abbr": "",
+                "text": "Forced Alignment and Speech Recognition Systems (Oxford)",
+                "url": "http://www.phon.ox.ac.uk/jcoleman/BAAP_ASR.pdf",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Forced Alignment of Spoken Audio",
+                "url": "https://www.clarin.eu/sites/default/files/Joe_Fruehwald_Oxford_2016.pdf",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Forced Alignment Overview (ISIP)",
+                "url": "https://www.isip.piconepress.com/projects/speech/software/tutorials/production/fundamentals/v1.0/section_04/s04_04_p01.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Forced Alignment with InproTK (and Sphinx)",
+                "url": "http://www.dsg-bielefeld.de/dsg_wp/forced-alignment-with-inprotk-and-sphinx/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Gentle",
+                "url": "https://lowerquality.com/gentle/",
+                "notes": "based on Kaldi"
+            },
+            {
+                "abbr": "",
+                "text": "HTKBook",
+                "url": "http://htk.eng.cam.ac.uk/docs/docs.shtml",
+                "notes": "has a chapter on computing forced alignments with HTK, requires registration"
+            },
+            {
+                "abbr": "",
+                "text": "InproTK",
+                "url": "https://bitbucket.org/inpro/inprotk",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Introduction to Speech Analysis with FAVE",
+                "url": "https://jofrhwld.github.io/workshop/fave2015.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Julius",
+                "url": "http://julius.osdn.jp/en_index.php",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Kaldi",
+                "url": "http://kaldi-asr.org/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Kaldi Forced Alignment",
+                "url": "http://pages.jh.edu/~echodro1/tutorial/kaldi/kaldi-forcedalignment.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Korean Phonetic Aligner",
+                "url": "http://korean.utsc.utoronto.ca/kpa/",
+                "notes": "Web only, Korean only"
+            },
+            {
+                "abbr": "",
+                "text": "LaBB-CAT",
+                "url": "http://labbcat.sourceforge.net/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Long Audio Aligner Landed in Trunk (Sphinx)",
+                "url": "http://cmusphinx.sourceforge.net/2014/07/long-audio-aligner-landed-in-trunk/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "MAUS",
+                "url": "https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Montreal Forced Aligner",
+                "url": "https://montrealcorpustools.github.io/Montreal-Forced-Aligner/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Penn Forced Aligner",
+                "url": "https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Penn Forced Aligner",
+                "url": "http://pages.jh.edu/~echodro1/tutorial/pfa/pfa-intro.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Praatalign: an interactive Praat plug-in for performing phonetic forced alignment",
+                "url": "https://github.com/dopefishh/praatalign",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "ProsodyLab-Aligner",
+                "url": "http://prosodylab.org/tools/aligner/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Robust Automatic Transcription of Speech (RATS)",
+                "url": "http://opencatalog.darpa.mil/RATS.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "Simple English Forced Alignment (UPenn LING521)",
+                "url": "http://www.ling.upenn.edu/courses/ling521/NewAligner1a.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "speech.zone",
+                "url": "http://www.speech.zone/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "SPPAS Automatic Annotation of Speech",
+                "url": "http://www.sppas.org/index.html",
+                "notes": "based on Julius"
+            },
+            {
+                "abbr": "",
+                "text": "VoxForge",
+                "url": "http://www.voxforge.org/",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "WebMAUS",
+                "url": "https://clarin.phonetik.uni-muenchen.de/BASWebServices/index.html#/services/WebMAUSBasic",
+                "notes": "the Web interface for MAUS"
+            },
+            {
+                "abbr": "",
+                "text": "What is forced alignment? (ICSI)",
+                "url": "http://www1.icsi.berkeley.edu/Speech/faq/forcedalign.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "What is forced alignment? (VoxForge)",
+                "url": "http://www.voxforge.org/home/docs/faq/faq/what-is-forced-alignment)",
+                "notes": ""
+            }
+        ]
+    }
+}

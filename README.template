@@ -1,0 +1,79 @@
+# forced-alignment-tools
+
+A collection of links and notes on forced alignment tools
+
+* Version: 1.0.5
+* Date: 2016-12-18
+* Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
+* License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+
+## Definition of Forced Alignment
+
+Given an audio file containing speech,
+and the corresponding transcript,
+computing a **forced alignment** is the process of
+determining, for each fragment of the transcript,
+the **time interval** (in the audio file)
+containing the spoken text of the fragment.
+
+A text fragment can have arbitrary granularity:
+
+* a paragraph,
+* a sentence,
+* a portion of a sentence (i.e., a group of words),
+* a word, or
+* a phoneme (i.e., a single sound).
+
+For example, given
+[this text file](https://raw.githubusercontent.com/readbeyond/aeneas/master/aeneas/tests/res/container/job/assets/p001.xhtml)
+and
+[this audio file](https://raw.githubusercontent.com/readbeyond/aeneas/master/aeneas/tests/res/container/job/assets/p001.mp3),
+a force aligment at verse-level can be the following:
+
+```
+1                                                     => [00:00:00.000, 00:00:02.640]
+From fairest creatures we desire increase,            => [00:00:02.640, 00:00:05.880]
+That thereby beauty's rose might never die,           => [00:00:05.880, 00:00:09.240]
+But as the riper should by time decease,              => [00:00:09.240, 00:00:11.920]
+His tender heir might bear his memory:                => [00:00:11.920, 00:00:15.280]
+...
+Pity the world, or else this glutton be,              => [00:00:43.640, 00:00:48.080]
+To eat the world's due, by the grave and thee.        => [00:00:48.080, 00:00:53.240]
+```
+
+Typical **applications** of forced alignment include
+[Audio-eBooks](https://www.readbeyond.it/audioebooks.html),
+[closed captioning](https://en.wikipedia.org/wiki/Closed_captioning),
+and automating the creation of training data
+for automated speech recognition systems.
+
+
+## Programs and Libraries
+
+The following matrix contains **open source** programs and libraries
+for computing forced alignments
+that have been actually **proven to install and run**
+(albeit the installation procedure for some of them is pretty complex).
+
+All tools, except **aeneas**, are based on speech recognition algorithms;
+all tools, except **aeneas** and **gentle**,
+are maintained by research groups or individuals in academia.
+
+Most tools are based on the [HTK](http://htk.eng.cam.ac.uk/),
+which is not free for commercial purposes,
+although a commercial license can be purchased
+from the University of Cambridge.
+
+You can also download the [raw data file in JSON format](data.json).
+
+{{ aligners }}
+
+{{ abbreviations }}
+
+## Additional Pointers
+
+{{ links }}
+
+
+
