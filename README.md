@@ -7,6 +7,7 @@ A collection of links and notes on forced alignment tools
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
+Did I miss an aligner? Please open an issue or directly fork-commit-pullrequest.
 
 ## Definition of Forced Alignment
 
