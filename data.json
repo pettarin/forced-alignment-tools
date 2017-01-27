@@ -165,7 +165,7 @@
                 "lang": "English",
                 "interface": "CLI",
                 "codelang": "Python",
-                "lic": "?",
+                "lic": "MIT",
                 "doc": "README, Tutorial",
                 "ml": "N",
                 "active": "Y",

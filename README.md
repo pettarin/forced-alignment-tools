@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools
 
-* Version: 1.0.5
-* Date: 2016-12-18
+* Version: 1.0.6
+* Date: 2017-01-27
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -81,7 +81,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 10 | CLI, Web | C | All rights reserved | README | N | Y |  |
 | [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Can train other languages |
 | [Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI, Web | Python | ? | README, Tutorial | N | N? |  |
-| [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | ? | README, Tutorial | N | Y | Can train other languages |
+| [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
 | [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
 
 * AGPL: [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
