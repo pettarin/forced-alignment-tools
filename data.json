@@ -183,6 +183,19 @@
                 "ml": "N",
                 "active": "N?",
                 "notes": ""
+            },
+            {
+                "name": "SPPAS",
+                "url": "http://www.sppas.org/index.html",
+                "algo": "HMM (Julius)",
+                "lang": "12+",
+                "interface": "CLI, GUI",
+                "codelang": "Python",
+                "lic": "GPL",
+                "doc": "Y",
+                "ml": "Y",
+                "active": "Y",
+                "notes": "Can train other language, several plugins"
             }
         ]
     },

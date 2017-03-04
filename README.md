@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools
 
-* Version: 1.0.6
-* Date: 2017-01-27
+* Version: 1.0.7
+* Date: 2017-03-04
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -83,6 +83,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI, Web | Python | ? | README, Tutorial | N | N? |  |
 | [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
 | [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
+| [SPPAS](http://www.sppas.org/index.html) | HMM (Julius) | 12+ | CLI, GUI | Python | GPL | Y | Y | Y | Can train other language, several plugins |
 
 * AGPL: [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
 * Apache: [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
