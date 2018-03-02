@@ -84,6 +84,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
 | [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
 | [SPPAS](http://www.sppas.org/index.html) | HMM (Julius) | 12+ | CLI, GUI | Python | GPL | Y | Y | Y | Can train other language, several plugins |
+| [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM(Kaldi), DNN(Kaldi nnet3) | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |
 
 * AGPL: [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
 * Apache: [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
