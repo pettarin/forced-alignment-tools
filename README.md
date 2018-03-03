@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools
 
-* Version: 1.0.7
-* Date: 2017-03-04
+* Version: 1.0.8
+* Date: 2018-03-03
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -77,6 +77,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | English | CLI, Web | Python | MIT | N | N | Y | Based on Kaldi |
 | [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | English, Japanese | CLI, LIB | C | MIT-like | Y | Y | N? |  |
 | [Kaldi](http://kaldi-asr.org/) | HMM (own), DNN, RNN | English | CLI, LIB | C++ | Apache | Y | Y | Y | CUDA support |
+| [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM(Kaldi), DNN(Kaldi nnet3) | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |
 | [LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | English | Web | Java | GPL | Y | Y | Y |  |
 | [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 10 | CLI, Web | C | All rights reserved | README | N | Y |  |
 | [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Can train other languages |
@@ -84,7 +85,6 @@ You can also download the [raw data file in JSON format](data.json).
 | [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
 | [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
 | [SPPAS](http://www.sppas.org/index.html) | HMM (Julius) | 12+ | CLI, GUI | Python | GPL | Y | Y | Y | Can train other language, several plugins |
-| [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM(Kaldi), DNN(Kaldi nnet3) | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |
 
 * AGPL: [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
 * Apache: [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
