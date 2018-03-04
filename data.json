@@ -107,6 +107,19 @@
                 "notes": "CUDA support"
             },
             {
+                "name": "kaldi-dnn-ali-gop",
+                "url": "https://github.com/tbright17/kaldi-dnn-ali-gop",
+                "algo": "HMM(Kaldi), DNN(Kaldi nnet3)",
+                "lang": "English",
+                "interface": "CLI, LIB",
+                "codelang": "Shell Script, C++, Python",
+                "lic": "GPL",
+                "doc": "N",
+                "ml": "N",
+                "active": "Y",
+                "notes": "Work with other languages given kaldi acoustic models"
+            },
+            {
                 "name": "LaBB-CAT",
                 "url": "http://labbcat.sourceforge.net/",
                 "algo": "HMM (HTK)",
