@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools
 
-* Version: 1.0.8
-* Date: 2018-03-03
+* Version: 1.0.9
+* Date: 2018-07-10
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
