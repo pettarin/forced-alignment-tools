@@ -79,7 +79,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [Kaldi](http://kaldi-asr.org/) | HMM (own), DNN, RNN | English | CLI, LIB | C++ | Apache | Y | Y | Y | CUDA support |
 | [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM(Kaldi), DNN(Kaldi nnet3) | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |
 | [LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | English | Web | Java | GPL | Y | Y | Y |  |
-| [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 10 | CLI, Web | C | All rights reserved | README | N | Y |  |
+| [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 21 | CLI, Web | C | All rights reserved | README | Y | Y |  |
 | [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Can train other languages |
 | [Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI, Web | Python | ? | README, Tutorial | N | N? |  |
 | [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
