@@ -42,6 +42,19 @@
                 "notes": ""
             },
             {
+                "name": "CTC segmentation",
+                "url": "https://github.com/lumaku/ctc-segmentation",
+                "algo": "RNN",
+                "lang": "English, German, Chinese, French +",
+                "interface": "CLI",
+                "codelang": "Python",
+                "lic": "Apache",
+                "doc": "Y",
+                "ml": "N",
+                "active": "Y",
+                "notes": "Can be extended to any other language where an ASR model is available"
+            },
+            {
                 "name": "DARLA",
                 "url": "http://darla.dartmouth.edu/cave",
                 "algo": "HMM (HTK)",
@@ -332,6 +345,30 @@
                 "abbr": "",
                 "text": "Building Acoustic Models using Kaldi Voxforge recipe to obtain word level transcripts for long video files",
                 "url": "http://forcedalignment.blogspot.it/2015/06/building-acoustic-models-using-kaldi.html",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "CTC segmentation: Implementation in ESPnet",
+                "url": "https://github.com/espnet/espnet#ctc-segmentation-demo",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "CTC segmentation: Implementation in Speechbrain",
+                "url": "https://gist.github.com/lumaku/75eca1c86d9467a54888d149dc7b84f1",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "CTC segmentation: Implementation in Nvidia NeMo",
+                "url": "https://github.com/NVIDIA/NeMo/blob/main/tutorials/tools/CTC_Segmentation_Tutorial.ipynb",
+                "notes": ""
+            },
+            {
+                "abbr": "",
+                "text": "CTC segmentation: Implementation in pytorch",
+                "url": "https://pytorch.org/audio/main/tutorials/forced_alignment_tutorial.html",
                 "notes": ""
             },
             {

@@ -2,8 +2,8 @@
 
 A collection of links and notes on forced alignment tools
 
-* Version: 1.0.9
-* Date: 2018-07-10
+* Version: 1.0.7
+* Date: 2017-03-04
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
 
@@ -72,6 +72,7 @@ You can also download the [raw data file in JSON format](data.json).
 | ---- | --------- | --------------------- | --------- | ---------------- | ------- | ------------- | ------------------ | ------ | ----- |
 | [aeneas](https://www.readbeyond.it/aeneas/) | DTW | 30+ | CLI, LIB, Web | Python, C | AGPL | Y | Y | Y | Not based on ASR |
 | [CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own), RNN | 11 | CLI, LIB | C, Java, Python | MIT-like | Y | Y | Y |  |
+| [CTC segmentation](https://github.com/lumaku/ctc-segmentation) | RNN | English, German, Chinese, French + | CLI | Python | Apache | Y | N | Y | Can be extended to any other language where an ASR model is available |
 | [DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | English | Web | ? | ? | Y | N | N? | Based on Prosodylab-Aligner or YouTube ASR |
 | [FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | English | CLI, (Web) | Python | GPL | Y | Y | Y | acustic models from P2FA; GitHub code updated more frequently than Web |
 | [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | English | CLI, Web | Python | MIT | N | N | Y | Based on Kaldi |
@@ -107,6 +108,10 @@ You can also download the [raw data file in JSON format](data.json).
 * [Automatic and Accurate Captioning](http://www.nmsl.cs.ucsb.edu/proj/autocap/) (based on CMU Sphinx)
 * [Berkeley Phonetics Machine](http://linguistics.berkeley.edu/plab/guestwiki/index.php?title=Berkeley_Phonetics_Machine)
 * [Building Acoustic Models using Kaldi Voxforge recipe to obtain word level transcripts for long video files](http://forcedalignment.blogspot.it/2015/06/building-acoustic-models-using-kaldi.html)
+* [CTC segmentation: Implementation in ESPnet](https://github.com/espnet/espnet#ctc-segmentation-demo)
+* [CTC segmentation: Implementation in Nvidia NeMo](https://github.com/NVIDIA/NeMo/blob/main/tutorials/tools/CTC_Segmentation_Tutorial.ipynb)
+* [CTC segmentation: Implementation in Speechbrain](https://gist.github.com/lumaku/75eca1c86d9467a54888d149dc7b84f1)
+* [CTC segmentation: Implementation in pytorch](https://pytorch.org/audio/main/tutorials/forced_alignment_tutorial.html)
 * [DARLA](http://darla.dartmouth.edu/cave)
 * [EasyAlign: phonetic alignment with Praat](http://latlcui.unige.ch/phonetique/easyalign.php)
 * [FAVE-align](http://fave.ling.upenn.edu/) (the Web interface for the Penn Forced Aligner)
