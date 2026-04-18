@@ -81,7 +81,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [CTC segmentation](https://github.com/lumaku/ctc-segmentation) | RNN | phoneme | English, German, Chinese, French | CLI | Python | Apache | Y | N | Y | Can be extended to any other language where an ASR model is available |
 | [DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | phoneme | English | Web | ? | ? | Y | N | N? | Based on Prosodylab-Aligner or YouTube ASR |
 | [FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | phoneme | English | CLI, (Web) | Python | GPL | Y | Y | Y | acustic models from P2FA; GitHub code updated more frequently than Web |
-| [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | word | English | CLI, Web | Python | MIT | N | N | Y | Based on Kaldi; phoneme-level alignment should be possible |
+| [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | phoneme | English | CLI, Web | Python | MIT | N | N | Y | Based on Kaldi |
 | [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | phoneme | English, Japanese | CLI, LIB | C | MIT-like | Y | Y | N? |  |
 | [Kaldi](http://kaldi-asr.org/) | HMM (own), DNN, RNN | phoneme | English | CLI, LIB | C++ | Apache | Y | Y | Y | CUDA support |
 | [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM (Kaldi), DNN (Kaldi nnet3) | phoneme | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |

@@ -90,7 +90,7 @@
                 "name": "Gentle",
                 "url": "https://lowerquality.com/gentle/",
                 "algo": "HMM (Kaldi)",
-                "granularity": "word",
+                "granularity": "phoneme",
                 "lang": "English",
                 "interface": "CLI, Web",
                 "codelang": "Python",
@@ -98,7 +98,7 @@
                 "doc": "N",
                 "ml": "N",
                 "active": "Y",
-                "notes": "Based on Kaldi; phoneme-level alignment should be possible"
+                "notes": "Based on Kaldi"
             },
             {
                 "name": "Julius",
