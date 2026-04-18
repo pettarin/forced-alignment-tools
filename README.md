@@ -74,24 +74,24 @@ from the University of Cambridge.
 
 You can also download the [raw data file in JSON format](data.json).
 
-| Name | Algorithm | Supported Language(s) | Interface | Code Language(s) | License | Documentation | Mailing List/Forum | Active | Notes |
-| ---- | --------- | --------------------- | --------- | ---------------- | ------- | ------------- | ------------------ | ------ | ----- |
-| [aeneas](https://www.readbeyond.it/aeneas/) | DTW | 30+ | CLI, LIB, Web | Python, C | AGPL | Y | Y | Y | Not based on ASR |
-| [CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own), RNN | 11 | CLI, LIB | C, Java, Python | MIT-like | Y | Y | Y |  |
-| [CTC segmentation](https://github.com/lumaku/ctc-segmentation) | RNN | English, German, Chinese, French + | CLI | Python | Apache | Y | N | Y | Can be extended to any other language where an ASR model is available |
-| [DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | English | Web | ? | ? | Y | N | N? | Based on Prosodylab-Aligner or YouTube ASR |
-| [FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | English | CLI, (Web) | Python | GPL | Y | Y | Y | acustic models from P2FA; GitHub code updated more frequently than Web |
-| [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | English | CLI, Web | Python | MIT | N | N | Y | Based on Kaldi |
-| [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | English, Japanese | CLI, LIB | C | MIT-like | Y | Y | N? |  |
-| [Kaldi](http://kaldi-asr.org/) | HMM (own), DNN, RNN | English | CLI, LIB | C++ | Apache | Y | Y | Y | CUDA support |
-| [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM(Kaldi), DNN(Kaldi nnet3) | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |
-| [LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | English | Web | Java | GPL | Y | Y | Y |  |
-| [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | 21 | CLI, Web | C | All rights reserved | README | Y | Y |  |
-| [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | English | CLI | Python | MIT | Y | N | Y | Can train other languages |
-| [Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | English | CLI, Web | Python | ? | README, Tutorial | N | N? |  |
-| [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
-| [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
-| [SPPAS](http://www.sppas.org/index.html) | HMM (Julius) | 12+ | CLI, GUI | Python | GPL | Y | Y | Y | Can train other language, several plugins |
+| Name | Algorithm | Finest Supported Granularity | Supported Language(s) | Interface | Code Language(s) | License | Documentation | Mailing List/Forum | Active | Notes |
+| ---- | --------- | ---------------------------- | --------------------- | --------- | ---------------- | ------- | ------------- | ------------------ | ------ | ----- |
+| [aeneas](https://www.readbeyond.it/aeneas/) | DTW | word | 30+ | CLI, LIB, Web | Python, C | AGPL | Y | Y | Y | Not based on ASR |
+| [CMU Sphinx](http://cmusphinx.sourceforge.net/) | HMM (own), RNN | phoneme | 11 | CLI, LIB | C, Java, Python | MIT-like | Y | Y | Y |  |
+| [CTC segmentation](https://github.com/lumaku/ctc-segmentation) | RNN | phoneme | English, German, Chinese, French | CLI | Python | Apache | Y | N | Y | Can be extended to any other language where an ASR model is available |
+| [DARLA](http://darla.dartmouth.edu/cave) | HMM (HTK) | phoneme | English | Web | ? | ? | Y | N | N? | Based on Prosodylab-Aligner or YouTube ASR |
+| [FAVE-align](https://github.com/JoFrhwld/FAVE/) | HMM (HTK) | phoneme | English | CLI, (Web) | Python | GPL | Y | Y | Y | acustic models from P2FA; GitHub code updated more frequently than Web |
+| [Gentle](https://lowerquality.com/gentle/) | HMM (Kaldi) | word | English | CLI, Web | Python | MIT | N | N | Y | Based on Kaldi; phoneme-level alignment should be possible |
+| [Julius](http://julius.osdn.jp/en_index.php) | HMM (own) | phoneme | English, Japanese | CLI, LIB | C | MIT-like | Y | Y | N? |  |
+| [Kaldi](http://kaldi-asr.org/) | HMM (own), DNN, RNN | phoneme | English | CLI, LIB | C++ | Apache | Y | Y | Y | CUDA support |
+| [kaldi-dnn-ali-gop](https://github.com/tbright17/kaldi-dnn-ali-gop) | HMM (Kaldi), DNN (Kaldi nnet3) | phoneme | English | CLI, LIB | Shell Script, C++, Python | GPL | N | N | Y | Work with other languages given kaldi acoustic models |
+| [LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | phoneme | English | Web | Java | GPL | Y | Y | Y |  |
+| [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | phoneme | 21 | CLI, Web | C | All rights reserved | README | Y | Y |  |
+| [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | phoneme | English | CLI | Python | MIT | Y | N | Y | Can train other languages |
+| [Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | phoneme | English | CLI, Web | Python | ? | README, Tutorial | N | N? |  |
+| [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | phoneme | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
+| [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | phoneme | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
+| [SPPAS](http://www.sppas.org/index.html) | HMM (Julius) | phoneme | 12+ | CLI, GUI | Python | GPL | Y | Y | Y | Can train other language, several plugins |
 
 * AGPL: [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
 * Apache: [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
