@@ -2,7 +2,7 @@
 
 A collection of links and notes on forced alignment tools
 
-* Version: 1.0.10
+* Version: 1.0.11
 * Date: 2026-04-18
 * Author: [Alberto Pettarin](http://www.albertopettarin.it/) ([contact](http://www.albertopettarin.it/contact.html))
 * License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/legalcode)
@@ -150,6 +150,7 @@ You can also download the [raw data file in JSON format](data.json).
 * [What is forced alignment? (ICSI)](http://www1.icsi.berkeley.edu/Speech/faq/forcedalign.html)
 * [What is forced alignment? (VoxForge)](http://www.voxforge.org/home/docs/faq/faq/what-is-forced-alignment))
 * [aeneas](https://www.readbeyond.it/aeneas/)
+* [andreemic/forced-alignment](https://replicate.com/andreemic/forced-alignment) (Replicate.com interface to aeneas)
 * [speech.zone](http://www.speech.zone/)
 
 

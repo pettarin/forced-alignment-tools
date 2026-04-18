@@ -336,6 +336,12 @@
             },
             {
                 "abbr": "",
+                "text": "andreemic/forced-alignment",
+                "url": "https://replicate.com/andreemic/forced-alignment",
+                "notes": "Replicate.com interface to aeneas"
+            },
+            {
+                "abbr": "",
                 "text": "Automated Audio Segmentation Using Forced Alignment",
                 "url": "http://www.voxforge.org/home/dev/autoaudioseg",
                 "notes": ""
