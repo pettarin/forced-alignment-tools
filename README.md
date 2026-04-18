@@ -18,13 +18,19 @@ determining, for each fragment of the transcript,
 the **time interval** (in the audio file)
 containing the spoken text of the fragment.
 
-A text fragment can have arbitrary granularity:
+The granularity of "text fragment" might be arbitrarily
+defined as any of the following:
 
 * a paragraph,
 * a sentence,
-* a portion of a sentence (i.e., a group of words),
+* a clause/portion of a sentence (i.e., a sequence of words),
 * a word, or
-* a phoneme (i.e., a single sound).
+* a phoneme (i.e., a single sound);
+
+but note that a given aligner might be designed
+to produce a good alignment only at a specific granularity,
+while it might produce incorrect results or even no output at all
+at finer granularities.
 
 For example, given
 [this text file](https://raw.githubusercontent.com/readbeyond/aeneas/master/aeneas/tests/res/container/job/assets/p001.xhtml)
