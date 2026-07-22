@@ -175,14 +175,14 @@
                 "url": "https://montrealcorpustools.github.io/Montreal-Forced-Aligner/",
                 "algo": "HMM (Kaldi)",
                 "granularity": "phoneme",
-                "lang": "English",
+                "lang": "40+",
                 "interface": "CLI",
                 "codelang": "Python",
                 "lic": "MIT",
                 "doc": "Y",
-                "ml": "N",
+                "ml": "Y",
                 "active": "Y",
-                "notes": "Can train other languages"
+                "notes": ""
             },
             {
                 "name": "Penn Forced Aligner (P2FA)",
