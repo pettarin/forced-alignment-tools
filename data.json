@@ -185,6 +185,20 @@
                 "notes": ""
             },
             {
+                "name": "nyra forced aligner",
+                "url": "https://github.com/nyrahealth/nyra-forced-aligner",
+                "algo": "HMM (own), WavLM features",
+                "granularity": "phoneme",
+                "lang": "English",
+                "interface": "CLI, LIB",
+                "codelang": "Python",
+                "lic": "MIT (code), non-commercial (models)",
+                "doc": "Y",
+                "ml": "N",
+                "active": "Y",
+                "notes": "Aligns fillers, laughter and other vocal sounds as explicit units; noise-robust; built for conversational and disfluent speech"
+            },
+            {
                 "name": "Penn Forced Aligner (P2FA)",
                 "url": "https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/",
                 "algo": "HMM (HTK)",

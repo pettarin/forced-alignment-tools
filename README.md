@@ -88,6 +88,7 @@ You can also download the [raw data file in JSON format](data.json).
 | [LaBB-CAT](http://labbcat.sourceforge.net/) | HMM (HTK) | phoneme | English | Web | Java | GPL | Y | Y | Y |  |
 | [MAUS](https://www.phonetik.uni-muenchen.de/forschung/Verbmobil/VM14.7eng.html) | HMM (HTK) | phoneme | 21 | CLI, Web | C | All rights reserved | README | Y | Y |  |
 | [Montreal Forced Aligner](https://montrealcorpustools.github.io/Montreal-Forced-Aligner/) | HMM (Kaldi) | phoneme | 40+ | CLI | Python | MIT | Y | Y | Y |  |
+| [nyra forced aligner](https://github.com/nyrahealth/nyra-forced-aligner) | HMM (own), WavLM features | phoneme | English | CLI, LIB | Python | MIT (code), non-commercial (models) | Y | N | Y | Aligns fillers, laughter and other vocal sounds as explicit units; noise-robust; built for conversational and disfluent speech |
 | [Penn Forced Aligner (P2FA)](https://www.ling.upenn.edu/phonetics/old_website_2015/p2fa/) | HMM (HTK) | phoneme | English | CLI, Web | Python | ? | README, Tutorial | N | N? |  |
 | [Prosodylab-Aligner](http://prosodylab.org/tools/aligner/) | HMM (HTK) | phoneme | English | CLI | Python | MIT | README, Tutorial | N | Y | Can train other languages |
 | [SailAlign](https://github.com/nassosoassos/sail_align) | HMM (HTK) | phoneme | English, Greek, Spanish | CLI | Perl | GPL | README | N | N? |  |
