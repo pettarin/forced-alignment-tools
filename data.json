@@ -332,6 +332,12 @@
                 "notes": ""
             },
             {
+                "abbr": "WavLM",
+                "text": "WavLM",
+                "url": "https://arxiv.org/pdf/2110.13900",
+                "notes": ""
+            },
+            {
                 "abbr": "Web",
                 "text": "Web-based graphical interface, local and/or remote",
                 "url": "",

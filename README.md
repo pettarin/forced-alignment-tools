@@ -106,6 +106,7 @@ You can also download the [raw data file in JSON format](data.json).
 * MFCC: [Mel-frequency Cepstral Coefficients](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)
 * MIT: [MIT License](https://opensource.org/licenses/MIT)
 * RNN: [Recurrent Neural Network](https://en.wikipedia.org/wiki/Recurrent_neural_network)
+* WavLM: [WavLM](https://arxiv.org/pdf/2110.13900)
 * Web: Web-based graphical interface, local and/or remote
 
 ## Additional Pointers
